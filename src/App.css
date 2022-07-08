@@ -1,0 +1,44 @@
+ html,
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ body {
+  /* background: linear-gradient(250deg, #7b2ff7, #f107a3); */
+  background-repeat: no-repeat;
+  width:100%;
+  
+}
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display:flex;
+  }
+  
+   li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+    color:white;
+  }
+
+
+
