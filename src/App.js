@@ -58,7 +58,9 @@ export default function App() {
           <Route exact path="animationsLib/tab2" element={<Tab2/>}/> */}
           <Route exact path="/sandbox/yesno" element={<YesNoWidget/>}/>
           <Route exact path='/integrations'  element={<Integrations />} />
-          <Route exact path='/' element={<Landing />} />
+          <Route exact path='/sandbox' element={<Landing />} />
+
+          <Route exact path='https://simplrjohan.github.io' element={<Landing />} />
 
 
         </Routes>
