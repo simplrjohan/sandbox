@@ -18,7 +18,7 @@ export const mainListItems = (
       <ListItemIcon>
         <DashboardIcon />
       </ListItemIcon>
-      <ListItem component={Link} href='/'>
+      <ListItem component={Link} href='/sandbox'>
         Chameleon
       </ListItem>
     </ListItemButton>
@@ -27,7 +27,7 @@ export const mainListItems = (
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <ListItem component={Link} href='/integrations'>
+      <ListItem component={Link} href='/sandbox/integrations'>
         <ListItemText primary='Integrations' />
       </ListItem>
     </ListItemButton>
