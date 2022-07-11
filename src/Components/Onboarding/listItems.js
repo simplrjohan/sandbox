@@ -18,7 +18,7 @@ export const mainListItems = (
       <ListItemIcon>
         <DashboardIcon />
       </ListItemIcon>
-      <ListItem component={Link} href='/sandbox/home'>
+      <ListItem component={Link} href='/home'>
         Home
       </ListItem>
     </ListItemButton>
@@ -27,7 +27,7 @@ export const mainListItems = (
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <ListItem component={Link} href='/sandbox/integrations'>
+      <ListItem component={Link} href='/integrations'>
         Integrations
       </ListItem>
     </ListItemButton>
