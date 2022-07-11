@@ -57,7 +57,7 @@ export default function App() {
           <Route exact path="/animationsLib/tab1" element={<Tab1/>}/>
           <Route exact path="animationsLib/tab2" element={<Tab2/>}/> */}
           <Route exact path='/sandbox' element={<Landing />} />
-          <Route exact path="/yesno" element={<YesNoWidget/>}/>
+          <Route exact path="/sandbox/yesno" element={<YesNoWidget/>}/>
           <Route exact path='/integrations'  element={<Integrations />} />
 
 

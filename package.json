@@ -2,7 +2,7 @@
   "name": "my-sandbox",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://simplrjohan.github.io/sandbox",
+  "homepage": "https://simplrjohan.github.io/",
   "dependencies": {
     "@chamaeleonidae/chmln": "^1.0.1",
     "@emotion/react": "^11.9.3",
