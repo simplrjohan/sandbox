@@ -32,7 +32,7 @@ export function Integrations(params) {
           height: '100vh',
         }}
       >
-        ss
+Performance
       </Grid>
     </DashboardContent>
   );
