@@ -32,7 +32,7 @@ export default function App() {
 
   console.log(chmln);
   return (
-    <Router basename='/sandbox'>
+    <Router >
       {/* <ul style={{display:'flex', margin:'auto', width:'90%'}}>
           `
           <li>
@@ -56,9 +56,9 @@ export default function App() {
           {/* <Route exact path="/animationsLib/lotties" element={<Lotties/>}/>
           <Route exact path="/animationsLib/tab1" element={<Tab1/>}/>
           <Route exact path="animationsLib/tab2" element={<Tab2/>}/> */}
-          <Route exact path='/' element={<Landing />} />
-          <Route exact path="/yesno" element={<YesNoWidget/>}/>
-          <Route exact path='/integrations'  element={<Integrations />} />
+          <Route exact path='/sandbox' element={<Landing />} />
+          <Route exact path="/sandbox/yesno" element={<YesNoWidget/>}/>
+          <Route exact path='/sandbox/integrations'  element={<Integrations />} />
 
 
         </Routes>
